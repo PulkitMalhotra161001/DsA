@@ -18,6 +18,7 @@ class Solution{
 	        }
 	    }
 	    sort(ans.begin(), ans.end());
+		//sorting will take O(nlogn) we can just insert elements at index 0 (no need to sort or reverse)
 	    return ans;
 	}
 };
